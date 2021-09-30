@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Panda Commerce</title>
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png"/>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Mi LED TV 4A 42 inch</h1>
+                          <p>The best Television in the business. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quae. Ullam iste commodi dolores esse ipsam consequuntur ex magnam enim quia nihil, labore sunt quidem maxime dolor vero minus explicabo?</p>
+                          <h1 class="price">$1299</h1>
+                          <button class="buy-now-button">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                          <h1>Skull Candy Headphones</h1>
+                          <p>The best headphones in the business. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quae. Ullam iste commodi dolores esse ipsam consequuntur ex magnam enim quia nihil, labore sunt quidem maxime dolor vero minus explicabo?</p>
+                          <h1 class="price">$489</h1>
+                          <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="/images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                 </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>X Box 360</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore quam autem tempora aliquam earum, amet inventore sapiente rem dolores recusandae eos quae ratione nesciunt atque sunt laborum ab. Sunt, nulla.</p>
+                        <h1 class="price">$665</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
