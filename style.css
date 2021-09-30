@@ -19,3 +19,38 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat1{
+    background-image: linear-gradient(to right, red , orange);
+}
+.cat2{
+    background-image: linear-gradient(to right, red , orchid);
+
+}
+.cat3{
+    background-image: linear-gradient(to right, red , blue);
+
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.catagories h1{
+    color: white;
+}
+.catagories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: grey;
+}
+footer{
+    text-align: center;
+}
